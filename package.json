@@ -1,0 +1,17 @@
+{
+  "name": "node-express-loki-twitter-app",
+  "version": "1.0.0",
+  "description": "properly structured webapplication to search twitter api's using inmomory loki db",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startdev":"nodemon main.js --ignore db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "lokijs": "^1.4.2",
+    "nodemon": "^1.11.0"
+  }
+}
